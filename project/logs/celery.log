@@ -1,0 +1,44 @@
+[2021-06-08 09:36:02,485: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 09:36:02,495: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 09:36:03,515: INFO/MainProcess] mingle: all alone
+[2021-06-08 09:36:03,530: INFO/MainProcess] celery@357de402a84d ready.
+[2021-06-08 09:44:46,016: INFO/MainProcess] Received task: create_task[7c9283a5-2128-4c64-8382-533b057a7aee]  
+[2021-06-08 09:44:56,077: INFO/ForkPoolWorker-1] Task create_task[7c9283a5-2128-4c64-8382-533b057a7aee] succeeded in 10.058669000000009s: True
+[2021-06-08 09:44:57,688: INFO/MainProcess] Received task: create_task[3ead4e55-59a7-4671-9a94-554de3085684]  
+[2021-06-08 09:45:17,711: INFO/ForkPoolWorker-1] Task create_task[3ead4e55-59a7-4671-9a94-554de3085684] succeeded in 20.021593499999653s: True
+[2021-06-08 09:45:22,414: INFO/MainProcess] Received task: create_task[7981b82d-058f-44d9-ad6c-4dd62a3372d4]  
+[2021-06-08 09:45:52,447: INFO/ForkPoolWorker-1] Task create_task[7981b82d-058f-44d9-ad6c-4dd62a3372d4] succeeded in 30.031969699999536s: True
+[2021-06-08 09:52:37,130: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 09:52:37,138: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 09:52:38,158: INFO/MainProcess] mingle: all alone
+[2021-06-08 09:52:38,171: INFO/MainProcess] celery@9df92681154b ready.
+[2021-06-08 10:07:08,726: INFO/MainProcess] Received task: create_task[8fab5b92-0fd6-474a-90a1-02d381f1bdb7]  
+[2021-06-08 10:07:08,740: INFO/ForkPoolWorker-1] Task create_task[8fab5b92-0fd6-474a-90a1-02d381f1bdb7] succeeded in 0.011945300000661518s: True
+[2021-06-08 13:27:46,926: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 13:27:46,934: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 13:27:47,962: INFO/MainProcess] mingle: all alone
+[2021-06-08 13:27:47,976: INFO/MainProcess] celery@61036cf71c13 ready.
+[2021-06-08 13:49:42,879: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 13:49:42,888: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 13:49:43,908: INFO/MainProcess] mingle: all alone
+[2021-06-08 13:49:43,921: INFO/MainProcess] celery@d39fe9e5dad8 ready.
+[2021-06-08 13:53:52,611: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 13:53:52,619: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 13:53:53,638: INFO/MainProcess] mingle: all alone
+[2021-06-08 13:53:53,651: INFO/MainProcess] celery@87fd2d84afc3 ready.
+[2021-06-08 13:55:27,035: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 13:55:27,044: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 13:55:28,065: INFO/MainProcess] mingle: all alone
+[2021-06-08 13:55:28,078: INFO/MainProcess] celery@ef13a146e855 ready.
+[2021-06-08 14:00:17,904: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 14:00:17,912: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 14:00:18,932: INFO/MainProcess] mingle: all alone
+[2021-06-08 14:00:18,945: INFO/MainProcess] celery@6346b65ab8f6 ready.
+[2021-06-08 14:55:20,249: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 14:55:20,259: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 14:55:21,278: INFO/MainProcess] mingle: all alone
+[2021-06-08 14:55:21,290: INFO/MainProcess] celery@41a92db1f0ce ready.
+[2021-06-08 15:14:33,244: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-08 15:14:33,252: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-08 15:14:34,272: INFO/MainProcess] mingle: all alone
+[2021-06-08 15:14:34,289: INFO/MainProcess] celery@33101f62b2ec ready.

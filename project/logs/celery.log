@@ -1,17 +1,9 @@
-[2021-06-09 13:43:55,554: INFO/MainProcess] Connected to redis://redis:6379/0
-[2021-06-09 13:43:55,562: INFO/MainProcess] mingle: searching for neighbors
-[2021-06-09 13:43:56,584: INFO/MainProcess] mingle: all alone
-[2021-06-09 13:43:56,598: INFO/MainProcess] celery@d27561219911 ready.
-[2021-06-09 13:45:48,094: INFO/MainProcess] Connected to redis://redis:6379/0
-[2021-06-09 13:45:48,102: INFO/MainProcess] mingle: searching for neighbors
-[2021-06-09 13:45:49,122: INFO/MainProcess] mingle: all alone
-[2021-06-09 13:45:49,141: INFO/MainProcess] celery@7577d6eb92d0 ready.
-[2021-06-09 13:46:49,131: INFO/MainProcess] Connected to redis://redis:6379/0
-[2021-06-09 13:46:49,143: INFO/MainProcess] mingle: searching for neighbors
-[2021-06-09 13:46:50,164: INFO/MainProcess] mingle: all alone
-[2021-06-09 13:46:50,180: INFO/MainProcess] celery@2bd0e2be2b6a ready.
-[2021-06-09 13:47:09,608: INFO/MainProcess] Received task: create_task[9fb29383-31e2-40a8-90f7-51536d194e07]  
-[2021-06-09 13:47:09,654: ERROR/ForkPoolWorker-3] Task create_task[9fb29383-31e2-40a8-90f7-51536d194e07] raised unexpected: OperationalError('(sqlite3.OperationalError) no such table: matches')
+[2021-06-09 13:52:18,357: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 13:52:18,365: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 13:52:19,387: INFO/MainProcess] mingle: all alone
+[2021-06-09 13:52:19,402: INFO/MainProcess] celery@276e50fdbebd ready.
+[2021-06-09 13:52:21,770: INFO/MainProcess] Received task: create_task[de4fa355-e28c-4559-aeea-6d4295f22914]  
+[2021-06-09 13:52:21,819: ERROR/ForkPoolWorker-1] Task create_task[de4fa355-e28c-4559-aeea-6d4295f22914] raised unexpected: OperationalError('(sqlite3.OperationalError) no such table: matches')
 Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1770, in _execute_context
     self.dialect.do_execute(
@@ -58,8 +50,160 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 717, in do_execute
     cursor.execute(statement, parameters)
 sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: matches
-[SQL: SELECT matches.id AS matches_id, matches.tm0_defeats_h AS matches_tm0_defeats_h, matches.tm1_wins_h AS matches_tm1_wins_h, matches.tm2_defeats AS matches_tm2_defeats, matches."tm0_BTS_a" AS "matches_tm0_BTS_a", matches."tm2_GC_a" AS "matches_tm2_GC_a", matches."tm2_BoTS_h" AS "matches_tm2_BoTS_h", matches."tm1_BoTS_h" AS "matches_tm1_BoTS_h", matches.tm0_25 AS matches_tm0_25, matches."tm0_TGG_a" AS "matches_tm0_TGG_a", matches."tm2_WtN_h" AS "matches_tm2_WtN_h", matches."tm0_D_a" AS "matches_tm0_D_a", matches."tm0_GSG_h" AS "matches_tm0_GSG_h", matches."tm2_GCG_a" AS "matches_tm2_GCG_a", matches.tm2_25_a AS matches_tm2_25_a, matches."tm2_D" AS "matches_tm2_D", matches."tm2_ClS_h" AS "matches_tm2_ClS_h", matches.tm1_35_h AS matches_tm1_35_h, matches.tm0_defeats_a AS matches_tm0_defeats_a, matches.tm0_defeats AS matches_tm0_defeats, matches."tm0_TGG_h" AS "matches_tm0_TGG_h", matches."tm0_TGG" AS "matches_tm0_TGG", matches."tm0_BTS" AS "matches_tm0_BTS", matches."tm0_PPGH_h" AS "matches_tm0_PPGH_h", matches.tm1_defeats_h AS matches_tm1_defeats_h, matches.tm0_35 AS matches_tm0_35, matches."tm2_BTS" AS "matches_tm2_BTS", matches.tm0_35_a AS matches_tm0_35_a, matches."tm1_GCG_h" AS "matches_tm1_GCG_h", matches."tm2_FtS_h" AS "matches_tm2_FtS_h", matches.tm0_wins AS matches_tm0_wins, matches."tm1_GC_h" AS "matches_tm1_GC_h", matches."tm2_PPGA_a" AS "matches_tm2_PPGA_a", matches."tm1_TGG" AS "matches_tm1_TGG", matches."tm1_PPGH_h" AS "matches_tm1_PPGH_h", matches."tm1_GSG_h" AS "matches_tm1_GSG_h", matches."tm0_GS_h" AS "matches_tm0_GS_h", matches.tm1_35 AS matches_tm1_35, matches."tm1_SiBH_h" AS "matches_tm1_SiBH_h", matches."tm1_FtS_h" AS "matches_tm1_FtS_h", matches."tm2_TGG_a" AS "matches_tm2_TGG_a", matches."tm1_GSG" AS "matches_tm1_GSG", matches."tm1_GCG" AS "matches_tm1_GCG", matches."tm2_BTS_a" AS "matches_tm2_BTS_a", matches.tm2_wins_a AS matches_tm2_wins_a, matches.tm2_35_a AS matches_tm2_35_a, matches.tm1_points_h AS matches_tm1_points_h, matches.tm0_25_a AS matches_tm0_25_a, matches."tm1_CiBH_h" AS "matches_tm1_CiBH_h", matches."tm2_GS_a" AS "matches_tm2_GS_a", matches."tm1_WtN_h" AS "matches_tm1_WtN_h", matches.tm0_25_h AS matches_tm0_25_h, matches."tm1_D_h" AS "matches_tm1_D_h", matches."tm2_GCG" AS "matches_tm2_GCG", matches."tm1_GS_h" AS "matches_tm1_GS_h", matches."tm1_BTS" AS "matches_tm1_BTS", matches."tm0_GCG" AS "matches_tm0_GCG", matches."tm2_CiBH_h" AS "matches_tm2_CiBH_h", matches."tm0_PPGH" AS "matches_tm0_PPGH", matches.tm1_defeats AS matches_tm1_defeats, matches."tm2_D_a" AS "matches_tm2_D_a", matches."tm0_D" AS "matches_tm0_D", matches."tm1_TGG_h" AS "matches_tm1_TGG_h", matches."tm1_ClS_h" AS "matches_tm1_ClS_h", matches."tm0_D_h" AS "matches_tm0_D_h", matches.tm0_35_h AS matches_tm0_35_h, matches."tm2_GSG" AS "matches_tm2_GSG", matches."tm0_GS_a" AS "matches_tm0_GS_a", matches.tm0_wins_h AS matches_tm0_wins_h, matches."tm0_GCG_h" AS "matches_tm0_GCG_h", matches."tm1_D" AS "matches_tm1_D", matches."tm0_GCG_a" AS "matches_tm0_GCG_a", matches."tm0_GSG" AS "matches_tm0_GSG", matches."tm2_TGG" AS "matches_tm2_TGG", matches.tm1_25 AS matches_tm1_25, matches."tm2_GSG_a" AS "matches_tm2_GSG_a", matches.tm2_points_a AS matches_tm2_points_a, matches."tm1_BTS_h" AS "matches_tm1_BTS_h", matches."tm2_SiBH_h" AS "matches_tm2_SiBH_h", matches."tm1_LtN_h" AS "matches_tm1_LtN_h", matches.tm1_wins AS matches_tm1_wins, matches.tm2_wins AS matches_tm2_wins, matches.tm2_25 AS matches_tm2_25, matches."tm0_BTS_h" AS "matches_tm0_BTS_h", matches.tm2_35 AS matches_tm2_35, matches.tm0_wins_a AS matches_tm0_wins_a, matches.tm2_defeats_a AS matches_tm2_defeats_a, matches.tm1_25_h AS matches_tm1_25_h, matches."tm0_GSG_a" AS "matches_tm0_GSG_a", matches."tm0_PPGH_a" AS "matches_tm0_PPGH_a", matches."tm2_LtN_h" AS "matches_tm2_LtN_h", matches.tm2_names AS matches_tm2_names, matches.scores AS matches_scores, matches.dates AS matches_dates, matches.tm1_names AS matches_tm1_names 
+[SQL: SELECT matches.id AS matches_id, matches."tm1_BoTS_h" AS "matches_tm1_BoTS_h", matches."tm1_WtN_h" AS "matches_tm1_WtN_h", matches."tm2_GC_a" AS "matches_tm2_GC_a", matches.tm0_defeats_a AS matches_tm0_defeats_a, matches."tm0_GSG_a" AS "matches_tm0_GSG_a", matches."tm2_GSG_a" AS "matches_tm2_GSG_a", matches."tm2_BTS" AS "matches_tm2_BTS", matches.tm0_wins_a AS matches_tm0_wins_a, matches."tm2_GS_a" AS "matches_tm2_GS_a", matches."tm2_D_a" AS "matches_tm2_D_a", matches.tm1_defeats AS matches_tm1_defeats, matches."tm1_GC_h" AS "matches_tm1_GC_h", matches."tm0_GCG_h" AS "matches_tm0_GCG_h", matches."tm1_SiBH_h" AS "matches_tm1_SiBH_h", matches."tm1_GCG" AS "matches_tm1_GCG", matches."tm0_BTS_h" AS "matches_tm0_BTS_h", matches."tm1_CiBH_h" AS "matches_tm1_CiBH_h", matches."tm0_BTS_a" AS "matches_tm0_BTS_a", matches.tm0_defeats_h AS matches_tm0_defeats_h, matches.tm2_25 AS matches_tm2_25, matches."tm0_D_a" AS "matches_tm0_D_a", matches.tm2_25_a AS matches_tm2_25_a, matches.tm1_25 AS matches_tm1_25, matches."tm2_PPGA_a" AS "matches_tm2_PPGA_a", matches.tm0_35_a AS matches_tm0_35_a, matches.tm1_35 AS matches_tm1_35, matches.tm0_25 AS matches_tm0_25, matches."tm1_GCG_h" AS "matches_tm1_GCG_h", matches."tm2_BoTS_h" AS "matches_tm2_BoTS_h", matches."tm2_ClS_h" AS "matches_tm2_ClS_h", matches.tm1_wins AS matches_tm1_wins, matches.tm0_35 AS matches_tm0_35, matches."tm1_GS_h" AS "matches_tm1_GS_h", matches."tm0_PPGH" AS "matches_tm0_PPGH", matches.tm0_35_h AS matches_tm0_35_h, matches.tm1_defeats_h AS matches_tm1_defeats_h, matches.tm2_defeats AS matches_tm2_defeats, matches."tm0_GS_h" AS "matches_tm0_GS_h", matches."tm2_BTS_a" AS "matches_tm2_BTS_a", matches.tm2_defeats_a AS matches_tm2_defeats_a, matches."tm2_WtN_h" AS "matches_tm2_WtN_h", matches."tm0_PPGH_a" AS "matches_tm0_PPGH_a", matches."tm1_FtS_h" AS "matches_tm1_FtS_h", matches.tm1_wins_h AS matches_tm1_wins_h, matches."tm2_GCG_a" AS "matches_tm2_GCG_a", matches.tm2_35_a AS matches_tm2_35_a, matches."tm2_SiBH_h" AS "matches_tm2_SiBH_h", matches."tm1_LtN_h" AS "matches_tm1_LtN_h", matches."tm0_GSG" AS "matches_tm0_GSG", matches."tm2_D" AS "matches_tm2_D", matches."tm1_GSG_h" AS "matches_tm1_GSG_h", matches."tm1_GSG" AS "matches_tm1_GSG", matches."tm2_CiBH_h" AS "matches_tm2_CiBH_h", matches."tm0_TGG_h" AS "matches_tm0_TGG_h", matches.tm1_35_h AS matches_tm1_35_h, matches."tm1_PPGH_h" AS "matches_tm1_PPGH_h", matches."tm0_GCG" AS "matches_tm0_GCG", matches."tm1_BTS_h" AS "matches_tm1_BTS_h", matches.tm2_wins AS matches_tm2_wins, matches."tm0_D_h" AS "matches_tm0_D_h", matches."tm2_GSG" AS "matches_tm2_GSG", matches."tm1_D" AS "matches_tm1_D", matches.tm0_defeats AS matches_tm0_defeats, matches.tm0_25_a AS matches_tm0_25_a, matches.tm0_wins_h AS matches_tm0_wins_h, matches.tm0_wins AS matches_tm0_wins, matches.tm2_35 AS matches_tm2_35, matches."tm0_BTS" AS "matches_tm0_BTS", matches."tm0_GSG_h" AS "matches_tm0_GSG_h", matches.tm2_wins_a AS matches_tm2_wins_a, matches.tm1_25_h AS matches_tm1_25_h, matches.tm2_points_a AS matches_tm2_points_a, matches."tm0_GCG_a" AS "matches_tm0_GCG_a", matches."tm0_TGG" AS "matches_tm0_TGG", matches."tm1_ClS_h" AS "matches_tm1_ClS_h", matches."tm1_D_h" AS "matches_tm1_D_h", matches."tm1_TGG_h" AS "matches_tm1_TGG_h", matches."tm1_BTS" AS "matches_tm1_BTS", matches."tm2_LtN_h" AS "matches_tm2_LtN_h", matches."tm0_TGG_a" AS "matches_tm0_TGG_a", matches."tm2_GCG" AS "matches_tm2_GCG", matches."tm2_TGG_a" AS "matches_tm2_TGG_a", matches."tm2_FtS_h" AS "matches_tm2_FtS_h", matches."tm0_PPGH_h" AS "matches_tm0_PPGH_h", matches.tm0_25_h AS matches_tm0_25_h, matches."tm1_TGG" AS "matches_tm1_TGG", matches."tm0_GS_a" AS "matches_tm0_GS_a", matches."tm0_D" AS "matches_tm0_D", matches."tm2_TGG" AS "matches_tm2_TGG", matches.tm1_points_h AS matches_tm1_points_h, matches.dates AS matches_dates, matches.tm2_names AS matches_tm2_names, matches.tm1_names AS matches_tm1_names, matches.scores AS matches_scores 
 FROM matches 
 WHERE matches.id = ?]
-[parameters: (5,)]
+[parameters: (4,)]
 (Background on this error at: http://sqlalche.me/e/14/e3q8)
+[2021-06-09 14:18:19,291: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:18:19,300: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:18:20,322: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:18:20,335: INFO/MainProcess] celery@d3f48355375e ready.
+[2021-06-09 14:18:33,550: INFO/MainProcess] Received task: create_task[096e5d3f-0719-4c94-bea0-842678838248]  
+[2021-06-09 14:18:33,568: ERROR/ForkPoolWorker-1] Task create_task[096e5d3f-0719-4c94-bea0-842678838248] raised unexpected: AttributeError("'Query' object has no attribute 'dates'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 47, in create_task
+    match_name = match.dates
+AttributeError: 'Query' object has no attribute 'dates'
+[2021-06-09 14:21:10,645: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:21:10,653: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:21:11,675: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:21:11,689: INFO/MainProcess] celery@d409cace1832 ready.
+[2021-06-09 14:21:40,394: INFO/MainProcess] Received task: create_task[b3c665cc-3b84-413f-bf65-dc49223a7541]  
+[2021-06-09 14:21:40,489: ERROR/ForkPoolWorker-1] Task create_task[b3c665cc-3b84-413f-bf65-dc49223a7541] raised unexpected: EncodeError(TypeError('Object of type Query is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Query is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type Query is not JSON serializable
+[2021-06-09 14:21:43,686: INFO/MainProcess] Received task: create_task[14777d96-3272-41ff-9e27-05e1eb4e66df]  
+[2021-06-09 14:21:43,690: ERROR/ForkPoolWorker-1] Task create_task[14777d96-3272-41ff-9e27-05e1eb4e66df] raised unexpected: EncodeError(TypeError('Object of type Query is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Query is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type Query is not JSON serializable
+[2021-06-09 14:25:25,676: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:25:25,684: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:25:26,705: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:25:26,719: INFO/MainProcess] celery@20c5cce66353 ready.
+[2021-06-09 14:25:52,452: INFO/MainProcess] Received task: create_task[59af39ff-5adb-4ba8-9626-f83d41162b7e]  
+[2021-06-09 14:25:52,494: INFO/ForkPoolWorker-3] Task create_task[59af39ff-5adb-4ba8-9626-f83d41162b7e] succeeded in 0.04020450000098208s: 'Wed 6 Jan'
+[2021-06-09 14:26:41,482: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:26:41,494: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:26:42,516: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:26:42,528: INFO/MainProcess] celery@3b2b58826e40 ready.
+[2021-06-09 14:26:45,726: INFO/MainProcess] Received task: create_task[8dec3972-4bee-4d82-bb68-7297728bda90]  
+[2021-06-09 14:26:45,767: INFO/ForkPoolWorker-1] Task create_task[8dec3972-4bee-4d82-bb68-7297728bda90] succeeded in 0.0396123999998963s: 'Wed 6 Jan'

@@ -1,21 +1,28 @@
-// custom javascript
+function GetSelectedValue(){
+          
+    var e = document.getElementById("multi-select");
+    var result = e.options[e.selectedIndex].value;
+    document.getElementById("result").innerHTML = result;
+        
 
-function handleClick() {
+    fetch('/tasks', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ id : result }),
+    })
+    .then(response => response.json())
+    .then(data => getStatus(data.task_id));
+}
 
-  var e = document.getElementById("multi-select");
-  var result = e.options[e.selectedIndex].value;
-
-  document.getElementById("result").innerHTML = "Lancement prediction".concat(' ', result);
-
-  const words = result.split(' ');
-  const id = words[2];
-
+function handleClick(type) {
   fetch('/tasks', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ id: id }),
+    body: JSON.stringify({ type: 1 }),
   })
   .then(response => response.json())
   .then(data => getStatus(data.task_id));

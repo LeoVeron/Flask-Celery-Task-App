@@ -6,7 +6,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
 
-def create_app(script_info=None):
+def create_app(script_info=None, register_blueprints=True):
 
     # instantiate the app
     app = Flask(
@@ -22,10 +22,10 @@ def create_app(script_info=None):
     #init Database
     db.init_app(app)
     
-    # register blueprints
-    from project.server.main.views import main_blueprint
-
-    app.register_blueprint(main_blueprint)
+    if register_blueprints:
+        # register blueprints
+        from project.server.main.views import main_blueprint
+        app.register_blueprint(main_blueprint)
 
     # shell context for flask cli
     app.shell_context_processor({"app": app})

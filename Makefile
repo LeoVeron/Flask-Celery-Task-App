@@ -7,12 +7,12 @@ down:
 status:
 	@docker-compose ps
 
-web_it:
+it:
 	@docker exec -ti web /bin/bash
 
 open_db:
 	@docker-compose exec db psql --username=hello_flask --dbname=hello_flask_dev
-	
+
 log:
 	@docker-compose logs
 

@@ -6,3 +6,5 @@ redis==3.5.3
 flask-sqlalchemy==2.5.1
 psycopg2-binary==2.8.6
 pandas==1.2.4
+tensorflow
+tensorflow-addons

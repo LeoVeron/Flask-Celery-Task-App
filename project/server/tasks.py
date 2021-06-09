@@ -1,9 +1,10 @@
 import os
 import time
-
+import pandas as pd
 
 from project.database import Matche
-from project.server import create_app
+from project.server.model.data_prep import create_X
+from project.server.model.predict import predict
 from celery import Celery
 # import celery
 
@@ -31,25 +32,25 @@ class SqlAlchemyTask(celery.Task):
         db_session.remove()
 
 
-# @celery.task(base=SqlAlchemyTask)
-# def get_from_db(user_id):
-#     user = db_session.query(User).filter(User.id=user_id).one()
-#     # do something with the user
-    
-
-
-
-
-
 @celery.task(name="create_task", base=SqlAlchemyTask)
 def create_task(match_id):
-    match = db_session.query(Matche).filter(Matche.id == match_id).one()
-    match_name = match.dates
-    # app=create_app(register_blueprints=False)
-    # with app.app_context():
-    #     match = Matche.query.get(match_id)
-    # match_name = match.dates
-    return match_name
+    start_time = time.time()
+    
+    df = pd.read_sql(db_session.query(Matche).filter(Matche.id == match_id).statement,db_session.bind) 
+    # match = db_session.query(Matche).filter(Matche.id == match_id).one()
+    
+    match_name = f"{df.iloc[0]['tm1_names']} {df.iloc[0]['tm2_names']} {df.iloc[0]['dates']}"
 
+    #preprocess X
+    df = pd.read_sql(db_session.query(Matche).filter(Matche.id == match_id).statement,db_session.bind) 
+    X= create_X(df)
 
+    #model prediction
+    prediction = predict(X)
+    prediction = [int(x*100) for x in prediction[0]]
+    
+    #time use for prediction
+    restime = round(time.time() - start_time,2)
+    
+    return match_name, restime, prediction
 

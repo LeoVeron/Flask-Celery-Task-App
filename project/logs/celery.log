@@ -207,3 +207,1012 @@ kombu.exceptions.EncodeError: Object of type Query is not JSON serializable
 [2021-06-09 14:26:42,528: INFO/MainProcess] celery@3b2b58826e40 ready.
 [2021-06-09 14:26:45,726: INFO/MainProcess] Received task: create_task[8dec3972-4bee-4d82-bb68-7297728bda90]  
 [2021-06-09 14:26:45,767: INFO/ForkPoolWorker-1] Task create_task[8dec3972-4bee-4d82-bb68-7297728bda90] succeeded in 0.0396123999998963s: 'Wed 6 Jan'
+[2021-06-09 14:30:43,702: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:30:43,712: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:30:44,732: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:30:44,743: INFO/MainProcess] celery@a25b1fc124eb ready.
+[2021-06-09 14:30:53,306: INFO/MainProcess] Received task: create_task[fbde5eca-ccbd-482b-9843-3acb872908b2]  
+[2021-06-09 14:30:53,348: INFO/ForkPoolWorker-1] Task create_task[fbde5eca-ccbd-482b-9843-3acb872908b2] succeeded in 0.03979330000220216s: ('Wed 6 Jan', 'Wed 6 Jan')
+[2021-06-09 14:35:31,650: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:35:31,680: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:35:32,714: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:35:32,726: INFO/MainProcess] celery@d2db5eb89f78 ready.
+[2021-06-09 14:35:54,188: INFO/MainProcess] Received task: create_task[0551c632-d1c9-4b4a-beeb-079181aec9aa]  
+[2021-06-09 14:35:54,232: INFO/ForkPoolWorker-1] Task create_task[0551c632-d1c9-4b4a-beeb-079181aec9aa] succeeded in 0.042126899999857415s: ('Strasbourg Nimes Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:35:56,195: INFO/MainProcess] Received task: create_task[55472b9a-49f7-4675-a374-179ed808cc98]  
+[2021-06-09 14:35:56,199: INFO/ForkPoolWorker-1] Task create_task[55472b9a-49f7-4675-a374-179ed808cc98] succeeded in 0.0031455000025744084s: ('Lille Angers Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:35:58,529: INFO/MainProcess] Received task: create_task[2b1e2d3c-4a8d-479d-8680-adf32e3a7de9]  
+[2021-06-09 14:35:58,534: INFO/ForkPoolWorker-1] Task create_task[2b1e2d3c-4a8d-479d-8680-adf32e3a7de9] succeeded in 0.0034825000002456363s: ('Nantes Rennes Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:37:21,124: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:37:21,135: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:37:22,167: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:37:22,179: INFO/MainProcess] celery@bd481a8e10cb ready.
+[2021-06-09 14:37:31,145: INFO/MainProcess] Received task: create_task[b2a54139-d324-4b83-b485-5b33bd6e4745]  
+[2021-06-09 14:37:31,190: INFO/ForkPoolWorker-1] Task create_task[b2a54139-d324-4b83-b485-5b33bd6e4745] succeeded in 0.04196139999839943s: ('Metz Bordeaux Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:37:34,027: INFO/MainProcess] Received task: create_task[09e090e0-c694-45ab-9989-8ba0d7d2ee02]  
+[2021-06-09 14:37:34,031: INFO/ForkPoolWorker-1] Task create_task[09e090e0-c694-45ab-9989-8ba0d7d2ee02] succeeded in 0.003195400000549853s: ('Strasbourg Nimes Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:39:35,298: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:39:35,308: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:39:36,328: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:39:36,339: INFO/MainProcess] celery@adccf90c7492 ready.
+[2021-06-09 14:39:47,389: INFO/MainProcess] Received task: create_task[97d0d3c4-d582-4534-9cc2-f06a8577985c]  
+[2021-06-09 14:39:47,441: INFO/ForkPoolWorker-1] Task create_task[97d0d3c4-d582-4534-9cc2-f06a8577985c] succeeded in 0.04816159999973024s: ('Metz Bordeaux Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:40:04,862: INFO/MainProcess] Received task: create_task[9dd008b9-b0d3-478b-98bb-77700280f52b]  
+[2021-06-09 14:40:04,869: INFO/ForkPoolWorker-1] Task create_task[9dd008b9-b0d3-478b-98bb-77700280f52b] succeeded in 0.006214799999725074s: ('Marseille Montpellier Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:40:07,762: INFO/MainProcess] Received task: create_task[8059a7b2-2b01-40a5-8c34-a1e93e03d8e9]  
+[2021-06-09 14:40:07,767: INFO/ForkPoolWorker-1] Task create_task[8059a7b2-2b01-40a5-8c34-a1e93e03d8e9] succeeded in 0.0038615999983449s: ('Lyon Lens Wed 6 Jan', 1, [1, 0, 0])
+[2021-06-09 14:40:56,909: INFO/MainProcess] Received task: create_task[41140b1f-6bbd-4c3d-96f9-343896e61c4b]  
+[2021-06-09 14:40:56,914: INFO/ForkPoolWorker-1] Task create_task[41140b1f-6bbd-4c3d-96f9-343896e61c4b] succeeded in 0.004438099997059908s: ('Lorient Dijon Wed 27 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:03,208: INFO/MainProcess] Received task: create_task[16eb3bfb-d7f5-48b4-8ba1-3ac53603d883]  
+[2021-06-09 14:41:03,212: INFO/ForkPoolWorker-1] Task create_task[16eb3bfb-d7f5-48b4-8ba1-3ac53603d883] succeeded in 0.002950299996882677s: ('Saint-Etienne Lyon Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:03,539: INFO/MainProcess] Received task: create_task[9049a2a6-709e-45fd-bafe-4852aa3f17c9]  
+[2021-06-09 14:41:03,546: INFO/ForkPoolWorker-1] Task create_task[9049a2a6-709e-45fd-bafe-4852aa3f17c9] succeeded in 0.006156400002510054s: ('Rennes Lille Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:03,852: INFO/MainProcess] Received task: create_task[aa12d663-dddd-4c87-9a1e-c22bdc7e0a63]  
+[2021-06-09 14:41:03,857: INFO/ForkPoolWorker-1] Task create_task[aa12d663-dddd-4c87-9a1e-c22bdc7e0a63] succeeded in 0.0037942000017210376s: ('Reims Brest Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:05,298: INFO/MainProcess] Received task: create_task[806095f5-4452-4097-9f9e-9c4c6912fa17]  
+[2021-06-09 14:41:05,303: INFO/ForkPoolWorker-1] Task create_task[806095f5-4452-4097-9f9e-9c4c6912fa17] succeeded in 0.003530400001181988s: ('Dijon Strasbourg Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:05,854: INFO/MainProcess] Received task: create_task[d1a45d8d-e5b0-4a00-9f5c-8c8b9ecdbc31]  
+[2021-06-09 14:41:05,859: INFO/ForkPoolWorker-1] Task create_task[d1a45d8d-e5b0-4a00-9f5c-8c8b9ecdbc31] succeeded in 0.0037359000016294885s: ('Reims Brest Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:05,886: INFO/MainProcess] Received task: create_task[ac491d7f-5ea8-43b0-98ff-b58d4840fa37]  
+[2021-06-09 14:41:05,891: INFO/ForkPoolWorker-1] Task create_task[ac491d7f-5ea8-43b0-98ff-b58d4840fa37] succeeded in 0.004328899998654379s: ('Rennes Lille Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:06,209: INFO/MainProcess] Received task: create_task[5faa9b59-2f82-4bbb-b7f4-49a142b14146]  
+[2021-06-09 14:41:06,213: INFO/ForkPoolWorker-1] Task create_task[5faa9b59-2f82-4bbb-b7f4-49a142b14146] succeeded in 0.003678199998830678s: ('Saint-Etienne Lyon Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:07,182: INFO/MainProcess] Received task: create_task[fad2f65e-9dd2-4775-8d69-d11d0b2372b9]  
+[2021-06-09 14:41:07,187: INFO/ForkPoolWorker-1] Task create_task[fad2f65e-9dd2-4775-8d69-d11d0b2372b9] succeeded in 0.004250899997714441s: ('Reims Brest Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:07,385: INFO/MainProcess] Received task: create_task[7d745fbf-e6a3-4818-a73d-245257cba64c]  
+[2021-06-09 14:41:07,389: INFO/ForkPoolWorker-1] Task create_task[7d745fbf-e6a3-4818-a73d-245257cba64c] succeeded in 0.00374530000044615s: ('Metz Nantes Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:07,514: INFO/MainProcess] Received task: create_task[dd9804b2-20bd-4d59-84c6-5d38f627aebf]  
+[2021-06-09 14:41:07,522: INFO/ForkPoolWorker-1] Task create_task[dd9804b2-20bd-4d59-84c6-5d38f627aebf] succeeded in 0.006858699998701923s: ('Rennes Lille Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:08,946: INFO/MainProcess] Received task: create_task[6079e51d-693d-47e4-8ef5-f3f6cf8276c3]  
+[2021-06-09 14:41:08,951: INFO/ForkPoolWorker-1] Task create_task[6079e51d-693d-47e4-8ef5-f3f6cf8276c3] succeeded in 0.0034046000000671484s: ('Saint-Etienne Lyon Sun 24 Jan', 1, [1, 0, 0])
+[2021-06-09 14:41:14,118: INFO/MainProcess] Received task: create_task[c3b6fc4f-524b-4896-80da-cf391be24e6b]  
+[2021-06-09 14:41:14,124: INFO/ForkPoolWorker-1] Task create_task[c3b6fc4f-524b-4896-80da-cf391be24e6b] succeeded in 0.003745800000615418s: ('Bordeaux Lille Wed 3 Feb', 1, [1, 0, 0])
+[2021-06-09 14:41:14,658: INFO/MainProcess] Received task: create_task[a9f16af8-b82c-461c-bbc6-5fc427fe0759]  
+[2021-06-09 14:41:14,662: INFO/ForkPoolWorker-1] Task create_task[a9f16af8-b82c-461c-bbc6-5fc427fe0759] succeeded in 0.003718500000104541s: ('Reims Angers Wed 3 Feb', 1, [1, 0, 0])
+[2021-06-09 14:41:14,704: INFO/MainProcess] Received task: create_task[2b57d74e-12ba-4cb4-97be-177f2bf110fd]  
+[2021-06-09 14:41:14,709: INFO/ForkPoolWorker-1] Task create_task[2b57d74e-12ba-4cb4-97be-177f2bf110fd] succeeded in 0.004088499998033512s: ('Strasbourg Brest Wed 3 Feb', 1, [1, 0, 0])
+[2021-06-09 14:43:44,238: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 14:43:44,246: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 14:43:45,269: INFO/MainProcess] mingle: all alone
+[2021-06-09 14:43:45,291: INFO/MainProcess] celery@fd6736bae8ba ready.
+[2021-06-09 14:43:52,552: INFO/MainProcess] Received task: create_task[2ef42511-7c7e-4ca7-b842-4fd697f4a29b]  
+[2021-06-09 14:43:52,597: INFO/ForkPoolWorker-3] Task create_task[2ef42511-7c7e-4ca7-b842-4fd697f4a29b] succeeded in 0.043631700002151774s: ('Lille Angers Wed 6 Jan', 0.03428936004638672, [1, 0, 0])
+[2021-06-09 14:43:54,581: INFO/MainProcess] Received task: create_task[07cd3d89-7e3f-46c7-93c0-7ee7def6c285]  
+[2021-06-09 14:43:54,585: INFO/ForkPoolWorker-3] Task create_task[07cd3d89-7e3f-46c7-93c0-7ee7def6c285] succeeded in 0.0037005999984103255s: ('Lyon Lens Wed 6 Jan', 0.002535104751586914, [1, 0, 0])
+[2021-06-09 14:43:56,561: INFO/MainProcess] Received task: create_task[3552b206-885e-4bee-922c-39117132e0db]  
+[2021-06-09 14:43:56,566: INFO/ForkPoolWorker-3] Task create_task[3552b206-885e-4bee-922c-39117132e0db] succeeded in 0.0037790999995195307s: ('Monaco Angers Sat 9 Jan', 0.0024220943450927734, [1, 0, 0])
+[2021-06-09 14:44:22,619: INFO/MainProcess] Received task: create_task[627cfa09-8186-4b08-a735-4e313d4be770]  
+[2021-06-09 14:44:22,624: INFO/ForkPoolWorker-3] Task create_task[627cfa09-8186-4b08-a735-4e313d4be770] succeeded in 0.003404300001420779s: ('Strasbourg Saint-Etienne Sun 17 Jan', 0.002221822738647461, [1, 0, 0])
+[2021-06-09 15:18:52,084: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:18:52,094: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:18:53,116: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:18:53,132: INFO/MainProcess] celery@f60190ff42ce ready.
+[2021-06-09 15:19:02,120: INFO/MainProcess] Received task: create_task[b74f6a01-50a9-453d-9d03-0dabfda6a9f6]  
+[2021-06-09 15:19:04,238: ERROR/ForkPoolWorker-1] Task create_task[b74f6a01-50a9-453d-9d03-0dabfda6a9f6] raised unexpected: TypeError("predict() missing 1 required positional argument: 'X'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 49, in create_task
+    prediction = predict()
+TypeError: predict() missing 1 required positional argument: 'X'
+[2021-06-09 15:19:07,126: INFO/MainProcess] Received task: create_task[0620eb27-c665-4d91-9777-215cad178dc2]  
+[2021-06-09 15:19:07,212: ERROR/ForkPoolWorker-1] Task create_task[0620eb27-c665-4d91-9777-215cad178dc2] raised unexpected: TypeError("predict() missing 1 required positional argument: 'X'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 49, in create_task
+    prediction = predict()
+TypeError: predict() missing 1 required positional argument: 'X'
+[2021-06-09 15:19:08,474: INFO/MainProcess] Received task: create_task[2cf2e0c2-681c-4110-ba9b-8da3f3731a2b]  
+[2021-06-09 15:19:08,559: ERROR/ForkPoolWorker-1] Task create_task[2cf2e0c2-681c-4110-ba9b-8da3f3731a2b] raised unexpected: TypeError("predict() missing 1 required positional argument: 'X'")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 49, in create_task
+    prediction = predict()
+TypeError: predict() missing 1 required positional argument: 'X'
+[2021-06-09 15:20:31,188: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:20:31,197: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:20:32,218: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:20:32,235: INFO/MainProcess] celery@7929d79a0504 ready.
+[2021-06-09 15:20:35,021: INFO/MainProcess] Received task: create_task[4552cbbc-beae-4c4d-a3a7-d3e212bdb00f]  
+[2021-06-09 15:20:35,209: ERROR/ForkPoolWorker-1] Task create_task[4552cbbc-beae-4c4d-a3a7-d3e212bdb00f] raised unexpected: ValueError('Unknown metric function: Addons>CohenKappa. Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 49, in create_task
+    prediction = predict(X)
+  File "/usr/src/app/project/server/model/predict.py", line 7, in predict
+    model = models.load_model(model_path)
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/save.py", line 201, in load_model
+    return hdf5_format.load_model_from_hdf5(filepath, custom_objects,
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/hdf5_format.py", line 198, in load_model_from_hdf5
+    model.compile(**saving_utils.compile_args_from_training_config(
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 219, in compile_args_from_training_config
+    metrics = _deserialize_nested_config(_deserialize_metric, metrics_config)
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 261, in _deserialize_nested_config
+    return [_deserialize_nested_config(deserialize_fn, obj) for obj in config]
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 261, in <listcomp>
+    return [_deserialize_nested_config(deserialize_fn, obj) for obj in config]
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 261, in _deserialize_nested_config
+    return [_deserialize_nested_config(deserialize_fn, obj) for obj in config]
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 261, in <listcomp>
+    return [_deserialize_nested_config(deserialize_fn, obj) for obj in config]
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 254, in _deserialize_nested_config
+    return deserialize_fn(config)
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/saving/saving_utils.py", line 284, in _deserialize_metric
+    return metrics_module.deserialize(metric_config)
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/metrics.py", line 3617, in deserialize
+    return deserialize_keras_object(
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 653, in deserialize_keras_object
+    (cls, cls_config) = class_and_config_for_serialized_keras_object(
+  File "/usr/local/lib/python3.9/site-packages/tensorflow/python/keras/utils/generic_utils.py", line 556, in class_and_config_for_serialized_keras_object
+    raise ValueError(
+ValueError: Unknown metric function: Addons>CohenKappa. Please ensure this object is passed to the `custom_objects` argument. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+[2021-06-09 15:40:06,185: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:40:06,197: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:40:07,223: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:40:07,296: INFO/MainProcess] celery@280a4ab537f6 ready.
+[2021-06-09 15:40:57,526: INFO/MainProcess] Received task: create_task[cd2a932e-3d52-4d38-b130-8ebf01f896e5]  
+[2021-06-09 15:40:58,622: ERROR/ForkPoolWorker-1] Task create_task[cd2a932e-3d52-4d38-b130-8ebf01f896e5] raised unexpected: EncodeError(TypeError('Object of type ndarray is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type ndarray is not JSON serializable
+[2021-06-09 15:41:39,590: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:41:39,601: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:41:40,621: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:41:40,633: INFO/MainProcess] celery@1cf75d629e48 ready.
+[2021-06-09 15:42:33,996: INFO/MainProcess] Received task: create_task[183e73ed-82b5-4055-b5e6-c633232d135f]  
+[2021-06-09 15:42:34,445: ERROR/ForkPoolWorker-1] Task create_task[183e73ed-82b5-4055-b5e6-c633232d135f] raised unexpected: EncodeError(TypeError('Object of type ndarray is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type ndarray is not JSON serializable
+[2021-06-09 15:43:08,714: INFO/MainProcess] Received task: create_task[4c97820d-9b55-4a05-8976-6f9edf5e55df]  
+[2021-06-09 15:43:09,014: ERROR/ForkPoolWorker-1] Task create_task[4c97820d-9b55-4a05-8976-6f9edf5e55df] raised unexpected: EncodeError(TypeError('Object of type ndarray is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ndarray is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type ndarray is not JSON serializable
+[2021-06-09 15:47:31,867: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:47:31,878: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:47:32,898: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:47:32,912: INFO/MainProcess] celery@70e37d15369d ready.
+[2021-06-09 15:47:36,735: INFO/MainProcess] Received task: create_task[e2063442-285b-4659-bea0-cc43456c9d2a]  
+[2021-06-09 15:47:37,234: INFO/ForkPoolWorker-1] Task create_task[e2063442-285b-4659-bea0-cc43456c9d2a] succeeded in 0.49521009999443777s: ('Strasbourg Nimes Wed 6 Jan', 0.4925553798675537, [[0.39065343141555786, 0.12362015247344971, 0.48572641611099243]])
+[2021-06-09 15:48:02,837: INFO/MainProcess] Received task: create_task[789355cb-0b62-4da6-920a-54dfd876ebd9]  
+[2021-06-09 15:48:03,172: INFO/ForkPoolWorker-1] Task create_task[789355cb-0b62-4da6-920a-54dfd876ebd9] succeeded in 0.3342163999986951s: ('Lyon Lens Wed 6 Jan', 0.3327322006225586, [[0.7323282361030579, 0.09872913360595703, 0.1689426451921463]])
+[2021-06-09 15:51:58,255: INFO/MainProcess] Received task: create_task[f30a6d28-38e6-4355-b035-b95c2dbde45c]  
+[2021-06-09 15:51:58,621: INFO/ForkPoolWorker-1] Task create_task[f30a6d28-38e6-4355-b035-b95c2dbde45c] succeeded in 0.3647294999973383s: ('Metz Bordeaux Wed 6 Jan', 0.3634970188140869, [[0.5772283673286438, 0.10808155685663223, 0.31469014286994934]])
+[2021-06-09 15:53:17,789: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:53:17,802: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:53:18,823: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:53:18,837: INFO/MainProcess] celery@e902bc020ead ready.
+[2021-06-09 15:53:26,271: INFO/MainProcess] Received task: create_task[208dcfb8-1f67-4869-b70e-eabc68c3011d]  
+[2021-06-09 15:53:26,748: ERROR/ForkPoolWorker-1] Task create_task[208dcfb8-1f67-4869-b70e-eabc68c3011d] raised unexpected: TypeError("'type' object is not iterable")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 50, in create_task
+    prediction = [round(x,2) for x in list]
+TypeError: 'type' object is not iterable
+[2021-06-09 15:53:30,773: INFO/MainProcess] Received task: create_task[394d731c-d37c-46d5-92cf-71e22164f4d7]  
+[2021-06-09 15:53:31,057: ERROR/ForkPoolWorker-1] Task create_task[394d731c-d37c-46d5-92cf-71e22164f4d7] raised unexpected: TypeError("'type' object is not iterable")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 50, in create_task
+    prediction = [round(x,2) for x in list]
+TypeError: 'type' object is not iterable
+[2021-06-09 15:54:25,813: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 15:54:25,823: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 15:54:26,845: INFO/MainProcess] mingle: all alone
+[2021-06-09 15:54:26,860: INFO/MainProcess] celery@c1220b691827 ready.
+[2021-06-09 15:54:32,786: INFO/MainProcess] Received task: create_task[3b50e268-fea5-44c9-83a0-cc1b179a3b64]  
+[2021-06-09 15:54:33,253: ERROR/ForkPoolWorker-1] Task create_task[3b50e268-fea5-44c9-83a0-cc1b179a3b64] raised unexpected: TypeError("type list doesn't define __round__ method")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 50, in create_task
+    prediction = [round(x,2) for x in prediction]
+  File "/usr/src/app/project/server/tasks.py", line 50, in <listcomp>
+    prediction = [round(x,2) for x in prediction]
+TypeError: type list doesn't define __round__ method
+[2021-06-09 15:58:58,347: INFO/MainProcess] Received task: create_task[7891c39c-bcb5-4914-98f6-e038da2b8215]  
+[2021-06-09 15:58:58,745: ERROR/ForkPoolWorker-1] Task create_task[7891c39c-bcb5-4914-98f6-e038da2b8215] raised unexpected: TypeError("type list doesn't define __round__ method")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 412, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 704, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/usr/src/app/project/server/tasks.py", line 50, in create_task
+  File "/usr/src/app/project/server/tasks.py", line 50, in <listcomp>
+TypeError: type list doesn't define __round__ method
+[2021-06-09 16:00:21,715: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:00:21,724: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:00:22,746: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:00:22,760: INFO/MainProcess] celery@35bc7b115fd6 ready.
+[2021-06-09 16:00:24,394: INFO/MainProcess] Received task: create_task[fdd42757-61d6-4127-b8ac-dccfe7914fbd]  
+[2021-06-09 16:00:24,894: INFO/ForkPoolWorker-1] Task create_task[fdd42757-61d6-4127-b8ac-dccfe7914fbd] succeeded in 0.4986367999954382s: ('Marseille Montpellier Wed 6 Jan', 0.5, [[0.2800000011920929, 0.550000011920929, 0.17000000178813934]])
+[2021-06-09 16:00:25,106: INFO/MainProcess] Received task: create_task[105bdf53-4f7f-45c6-93fa-793b205fe65c]  
+[2021-06-09 16:00:25,394: INFO/ForkPoolWorker-1] Task create_task[105bdf53-4f7f-45c6-93fa-793b205fe65c] succeeded in 0.2867044000013266s: ('Lyon Lens Wed 6 Jan', 0.29, [[0.7300000190734863, 0.10000000149011612, 0.17000000178813934]])
+[2021-06-09 16:03:04,227: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:03:04,236: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:03:05,257: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:03:05,272: INFO/MainProcess] celery@d97b1e1d1ba4 ready.
+[2021-06-09 16:03:27,623: INFO/MainProcess] Received task: create_task[78317d9d-94b3-46e4-990a-aedbc8cb602d]  
+[2021-06-09 16:03:28,130: INFO/ForkPoolWorker-1] Task create_task[78317d9d-94b3-46e4-990a-aedbc8cb602d] succeeded in 0.5048680999971111s: ('Strasbourg Nimes Wed 6 Jan', 0.5, [0.38999998569488525, 0.11999999731779099, 0.49000000953674316])
+[2021-06-09 16:03:30,364: INFO/MainProcess] Received task: create_task[cd40bf87-750f-49e3-8f80-d801604abde0]  
+[2021-06-09 16:03:30,717: INFO/ForkPoolWorker-1] Task create_task[cd40bf87-750f-49e3-8f80-d801604abde0] succeeded in 0.3529552000036347s: ('Brest Rennes Sun 17 Jan', 0.35, [0.47999998927116394, 0.23000000417232513, 0.28999999165534973])
+[2021-06-09 16:09:24,664: INFO/MainProcess] Received task: create_task[073f258e-0a0a-4e8b-a9eb-e752a39ced78]  
+[2021-06-09 16:09:24,971: INFO/ForkPoolWorker-1] Task create_task[073f258e-0a0a-4e8b-a9eb-e752a39ced78] succeeded in 0.3056852000008803s: ('Marseille Nimes Sat 16 Jan', 0.3, [0.7200000286102295, 0.11999999731779099, 0.1599999964237213])
+[2021-06-09 16:09:34,427: INFO/MainProcess] Received task: create_task[0d4f7a16-b0d5-4ed2-bb3f-ea411afa1c4f]  
+[2021-06-09 16:09:34,753: INFO/MainProcess] Received task: create_task[a2aa8ef7-75c3-4455-824a-a0b7cf34fb08]  
+[2021-06-09 16:09:34,774: INFO/ForkPoolWorker-1] Task create_task[0d4f7a16-b0d5-4ed2-bb3f-ea411afa1c4f] succeeded in 0.3452194999990752s: ('Rennes Lyon Sat 9 Jan', 0.34, [0.15000000596046448, 0.36000001430511475, 0.49000000953674316])
+[2021-06-09 16:09:35,216: INFO/ForkPoolWorker-3] Task create_task[a2aa8ef7-75c3-4455-824a-a0b7cf34fb08] succeeded in 0.46112040000298293s: ('Reims Saint-Etienne Sat 9 Jan', 0.46, [0.25999999046325684, 0.5099999904632568, 0.23000000417232513])
+[2021-06-09 16:09:42,039: INFO/MainProcess] Received task: create_task[f24e7f09-646a-42d2-8a26-47a5d8c61822]  
+[2021-06-09 16:09:42,364: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f9fbd618310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:09:42,367: INFO/ForkPoolWorker-1] Task create_task[f24e7f09-646a-42d2-8a26-47a5d8c61822] succeeded in 0.32679999999527354s: ('Montpellier Monaco Fri 15 Jan', 0.33, [0.5, 0.029999999329447746, 0.4699999988079071])
+[2021-06-09 16:09:45,039: INFO/MainProcess] Received task: create_task[54af1402-64c4-4362-aaf9-0e4cd127e969]  
+[2021-06-09 16:09:45,313: WARNING/ForkPoolWorker-1] 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f9fbd618430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:09:45,317: INFO/ForkPoolWorker-1] Task create_task[54af1402-64c4-4362-aaf9-0e4cd127e969] succeeded in 0.27654749999783235s: ('Brest Rennes Sun 17 Jan', 0.28, [0.47999998927116394, 0.23000000417232513, 0.28999999165534973])
+[2021-06-09 16:10:15,607: INFO/MainProcess] Received task: create_task[73982c94-e18e-467a-b69d-74a3defbb6d6]  
+[2021-06-09 16:10:15,898: INFO/ForkPoolWorker-1] Task create_task[73982c94-e18e-467a-b69d-74a3defbb6d6] succeeded in 0.2896097999982885s: ('Nantes Lens Sun 17 Jan', 0.29, [0.09000000357627869, 0.4399999976158142, 0.4699999988079071])
+[2021-06-09 16:10:27,251: INFO/MainProcess] Received task: create_task[8dc6138d-718f-4c7d-9ebc-f3cf5bef3871]  
+[2021-06-09 16:10:27,556: INFO/ForkPoolWorker-1] Task create_task[8dc6138d-718f-4c7d-9ebc-f3cf5bef3871] succeeded in 0.3040192000044044s: ('Rennes Lyon Sat 9 Jan', 0.3, [0.15000000596046448, 0.36000001430511475, 0.49000000953674316])
+[2021-06-09 16:13:53,407: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:13:53,417: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:13:54,442: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:13:54,458: INFO/MainProcess] celery@185e453cec63 ready.
+[2021-06-09 16:14:03,376: INFO/MainProcess] Received task: create_task[56221785-de9f-4ea3-b36b-fd1ff03a0c4f]  
+[2021-06-09 16:14:04,156: INFO/ForkPoolWorker-1] Task create_task[56221785-de9f-4ea3-b36b-fd1ff03a0c4f] succeeded in 0.7772721000001184s: ('Strasbourg Nimes Wed 6 Jan', 0.77, [0.38999998569488525, 0.11999999731779099, 0.49000000953674316])
+[2021-06-09 16:14:31,003: INFO/MainProcess] Received task: create_task[42e35b89-a17d-4849-8a3a-a52951d256bf]  
+[2021-06-09 16:14:31,291: INFO/ForkPoolWorker-1] Task create_task[42e35b89-a17d-4849-8a3a-a52951d256bf] succeeded in 0.28727350000554s: ('Reims Dijon Wed 6 Jan', 0.29, [0.4399999976158142, 0.44999998807907104, 0.10999999940395355])
+[2021-06-09 16:14:34,421: INFO/MainProcess] Received task: create_task[e488dfb0-54f8-4773-a376-30099b2e3f15]  
+[2021-06-09 16:14:34,721: INFO/ForkPoolWorker-1] Task create_task[e488dfb0-54f8-4773-a376-30099b2e3f15] succeeded in 0.2985625000001164s: ('Lyon Lens Wed 6 Jan', 0.3, [0.7300000190734863, 0.10000000149011612, 0.17000000178813934])
+[2021-06-09 16:14:35,177: INFO/MainProcess] Received task: create_task[31a2cd5a-d9b7-4260-b09b-feef3fb73221]  
+[2021-06-09 16:14:35,450: INFO/ForkPoolWorker-1] Task create_task[31a2cd5a-d9b7-4260-b09b-feef3fb73221] succeeded in 0.2718176000053063s: ('Marseille Montpellier Wed 6 Jan', 0.27, [0.2800000011920929, 0.550000011920929, 0.17000000178813934])
+[2021-06-09 16:14:36,960: INFO/MainProcess] Received task: create_task[9c83bccb-ac7d-4653-b732-ec45642f5e71]  
+[2021-06-09 16:14:37,262: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fd6d8580670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:14:37,266: INFO/ForkPoolWorker-1] Task create_task[9c83bccb-ac7d-4653-b732-ec45642f5e71] succeeded in 0.3027146000022185s: ('Lille Angers Wed 6 Jan', 0.3, [0.5400000214576721, 0.36000001430511475, 0.09000000357627869])
+[2021-06-09 16:14:38,449: INFO/MainProcess] Received task: create_task[f50b111f-3da8-4921-9a11-8609d28f04a0]  
+[2021-06-09 16:14:38,742: WARNING/ForkPoolWorker-1] 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fd6d8580160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:14:38,745: INFO/ForkPoolWorker-1] Task create_task[f50b111f-3da8-4921-9a11-8609d28f04a0] succeeded in 0.2943444000047748s: ('Strasbourg Nimes Wed 6 Jan', 0.29, [0.38999998569488525, 0.11999999731779099, 0.49000000953674316])
+[2021-06-09 16:14:41,073: INFO/MainProcess] Received task: create_task[eb3273f4-9b9f-4b7b-a88b-5a3020754e53]  
+[2021-06-09 16:14:41,363: INFO/ForkPoolWorker-1] Task create_task[eb3273f4-9b9f-4b7b-a88b-5a3020754e53] succeeded in 0.28961700000218116s: ('Nantes Rennes Wed 6 Jan', 0.29, [0.10999999940395355, 0.5600000023841858, 0.33000001311302185])
+[2021-06-09 16:17:07,373: INFO/MainProcess] Received task: create_task[3d250f7e-7575-4c53-b63a-9b8f51fb7de0]  
+[2021-06-09 16:17:07,688: INFO/ForkPoolWorker-1] Task create_task[3d250f7e-7575-4c53-b63a-9b8f51fb7de0] succeeded in 0.31388990000414196s: ('Strasbourg Nimes Wed 6 Jan', 0.31, [0.38999998569488525, 0.11999999731779099, 0.49000000953674316])
+[2021-06-09 16:18:32,184: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:18:32,193: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:18:33,217: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:18:33,233: INFO/MainProcess] celery@a78746439c51 ready.
+[2021-06-09 16:18:37,221: INFO/MainProcess] Received task: create_task[0db4b542-84bc-4eea-a9b3-8d83d1b66765]  
+[2021-06-09 16:18:37,664: ERROR/ForkPoolWorker-1] Task create_task[0db4b542-84bc-4eea-a9b3-8d83d1b66765] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:18:40,283: INFO/MainProcess] Received task: create_task[9e413a6c-6b52-439e-bc57-8ead506a1d9a]  
+[2021-06-09 16:18:40,561: ERROR/ForkPoolWorker-1] Task create_task[9e413a6c-6b52-439e-bc57-8ead506a1d9a] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:18:41,369: INFO/MainProcess] Received task: create_task[1b561f08-de39-489c-ae4c-4a5f82c5f597]  
+[2021-06-09 16:18:41,666: ERROR/ForkPoolWorker-1] Task create_task[1b561f08-de39-489c-ae4c-4a5f82c5f597] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:18:41,835: INFO/MainProcess] Received task: create_task[95f824b6-9bd2-412e-8908-9b79623bb02e]  
+[2021-06-09 16:18:42,137: ERROR/ForkPoolWorker-1] Task create_task[95f824b6-9bd2-412e-8908-9b79623bb02e] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:18:42,415: INFO/MainProcess] Received task: create_task[2387bc72-ca1a-4857-97f5-aa37d0efc823]  
+[2021-06-09 16:18:42,686: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f9840296af0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:18:42,690: ERROR/ForkPoolWorker-1] Task create_task[2387bc72-ca1a-4857-97f5-aa37d0efc823] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:18:44,045: INFO/MainProcess] Received task: create_task[bbf83523-8794-4b34-954e-a30529cd8f30]  
+[2021-06-09 16:18:44,369: WARNING/ForkPoolWorker-1] 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f98401f9b80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:18:44,373: ERROR/ForkPoolWorker-1] Task create_task[bbf83523-8794-4b34-954e-a30529cd8f30] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:18:46,002: INFO/MainProcess] Received task: create_task[afabeadf-9b01-447d-93e9-38740c64715d]  
+[2021-06-09 16:18:46,297: ERROR/ForkPoolWorker-1] Task create_task[afabeadf-9b01-447d-93e9-38740c64715d] raised unexpected: EncodeError(TypeError('Object of type float32 is not JSON serializable'))
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/app/trace.py", line 479, in trace_task
+    mark_as_done(
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 158, in mark_as_done
+    self.store_result(task_id, result, state, request=request)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 442, in store_result
+    self._store_result(task_id, result, state, traceback,
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 865, in _store_result
+    self._set_with_state(self.get_key_for_task(task_id), self.encode(meta), state)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 332, in encode
+    _, _, payload = self._encode(data)
+  File "/usr/local/lib/python3.9/site-packages/celery/backends/base.py", line 336, in _encode
+    return dumps(data, serializer=self.serializer)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/contextlib.py", line 135, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 54, in _reraise_errors
+    reraise(wrapper, wrapper(exc), sys.exc_info()[2])
+  File "/usr/local/lib/python3.9/site-packages/vine/five.py", line 194, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 50, in _reraise_errors
+    yield
+  File "/usr/local/lib/python3.9/site-packages/kombu/serialization.py", line 221, in dumps
+    payload = encoder(data)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 69, in dumps
+    return _dumps(s, cls=cls or _default_encoder,
+  File "/usr/local/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/site-packages/kombu/utils/json.py", line 59, in default
+    return super(JSONEncoder, self).default(o)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+kombu.exceptions.EncodeError: Object of type float32 is not JSON serializable
+[2021-06-09 16:20:44,715: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:20:44,728: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:20:45,748: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:20:45,760: INFO/MainProcess] celery@31619c570fb7 ready.
+[2021-06-09 16:20:58,608: INFO/MainProcess] Received task: create_task[92afa73e-a872-4723-975a-ad3ff741d444]  
+[2021-06-09 16:20:59,076: INFO/ForkPoolWorker-1] Task create_task[92afa73e-a872-4723-975a-ad3ff741d444] succeeded in 0.4657006000052206s: ('Lille Angers Wed 6 Jan', 0.46, [54, 36, 9])
+[2021-06-09 16:21:02,090: INFO/MainProcess] Received task: create_task[7042df8a-8b66-454a-bc49-cc150c73e067]  
+[2021-06-09 16:21:02,381: INFO/ForkPoolWorker-1] Task create_task[7042df8a-8b66-454a-bc49-cc150c73e067] succeeded in 0.28991469999891706s: ('Nantes Rennes Wed 6 Jan', 0.29, [11, 56, 32])
+[2021-06-09 16:21:04,118: INFO/MainProcess] Received task: create_task[1f4296ab-ba4d-4d13-b1d9-18f7b2a89e73]  
+[2021-06-09 16:21:04,400: INFO/ForkPoolWorker-1] Task create_task[1f4296ab-ba4d-4d13-b1d9-18f7b2a89e73] succeeded in 0.28069569999934174s: ('Metz Bordeaux Wed 6 Jan', 0.28, [57, 10, 31])
+[2021-06-09 16:21:10,818: INFO/MainProcess] Received task: create_task[61f875c7-5bf8-4481-baba-7e26fcd4af16]  
+[2021-06-09 16:21:11,098: INFO/ForkPoolWorker-1] Task create_task[61f875c7-5bf8-4481-baba-7e26fcd4af16] succeeded in 0.2784590000010212s: ('Lille Angers Wed 6 Jan', 0.28, [54, 36, 9])
+[2021-06-09 16:21:13,059: INFO/MainProcess] Received task: create_task[05decb79-eeec-4fd9-862b-95adb0b1550d]  
+[2021-06-09 16:21:13,348: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f8654513310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:21:13,351: INFO/ForkPoolWorker-1] Task create_task[05decb79-eeec-4fd9-862b-95adb0b1550d] succeeded in 0.28934040000604s: ('Marseille Montpellier Wed 6 Jan', 0.29, [28, 55, 16])
+[2021-06-09 16:24:13,238: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:24:13,247: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:24:14,268: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:24:14,283: INFO/MainProcess] celery@fdcf513e014e ready.
+[2021-06-09 16:24:17,576: INFO/MainProcess] Received task: create_task[94eed699-12fb-4a12-9a0e-2b09020af248]  
+[2021-06-09 16:24:18,022: INFO/ForkPoolWorker-1] Task create_task[94eed699-12fb-4a12-9a0e-2b09020af248] succeeded in 0.4426638000004459s: ('Nantes Rennes Wed 6 Jan', 0.44, [11, 56, 32])
+[2021-06-09 16:24:21,079: INFO/MainProcess] Received task: create_task[9fb580b8-bfbb-484c-9f3e-6fac0617304a]  
+[2021-06-09 16:24:21,379: INFO/ForkPoolWorker-1] Task create_task[9fb580b8-bfbb-484c-9f3e-6fac0617304a] succeeded in 0.29886509999778355s: ('Marseille Montpellier Wed 6 Jan', 0.3, [28, 55, 16])
+[2021-06-09 16:24:23,260: INFO/MainProcess] Received task: create_task[597621b0-4366-4002-acb4-d13ce7d71ddb]  
+[2021-06-09 16:24:23,540: INFO/ForkPoolWorker-1] Task create_task[597621b0-4366-4002-acb4-d13ce7d71ddb] succeeded in 0.2784271999989869s: ('Strasbourg Nimes Wed 6 Jan', 0.28, [39, 12, 48])
+[2021-06-09 16:24:24,406: INFO/MainProcess] Received task: create_task[55bc779a-f347-4694-876f-355d9f357ad6]  
+[2021-06-09 16:24:24,706: INFO/ForkPoolWorker-1] Task create_task[55bc779a-f347-4694-876f-355d9f357ad6] succeeded in 0.2987981000042055s: ('Lille Angers Wed 6 Jan', 0.3, [54, 36, 9])
+[2021-06-09 16:24:26,328: INFO/MainProcess] Received task: create_task[2b6edf1a-2097-4501-9c29-1131678afe25]  
+[2021-06-09 16:24:26,675: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fbe08163310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:24:26,678: INFO/ForkPoolWorker-1] Task create_task[2b6edf1a-2097-4501-9c29-1131678afe25] succeeded in 0.3488526000001002s: ('Monaco Angers Sat 9 Jan', 0.35, [80, 14, 5])
+[2021-06-09 16:24:30,905: INFO/MainProcess] Received task: create_task[87ccf10c-3920-400c-bfb0-e8d991675525]  
+[2021-06-09 16:24:31,188: WARNING/ForkPoolWorker-1] 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fbe08163ca0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:24:31,191: INFO/ForkPoolWorker-1] Task create_task[87ccf10c-3920-400c-bfb0-e8d991675525] succeeded in 0.28502909999951953s: ('Montpellier Nantes Sat 9 Jan', 0.28, [56, 27, 16])
+[2021-06-09 16:24:33,154: INFO/MainProcess] Received task: create_task[cad51faf-477c-4a49-8009-6ff943ee75d2]  
+[2021-06-09 16:24:33,432: INFO/ForkPoolWorker-1] Task create_task[cad51faf-477c-4a49-8009-6ff943ee75d2] succeeded in 0.27626060000329744s: ('Monaco Angers Sat 9 Jan', 0.27, [80, 14, 5])
+[2021-06-09 16:24:41,337: INFO/MainProcess] Received task: create_task[f9b98a78-8526-44fa-a239-25a335737aed]  
+[2021-06-09 16:24:41,633: INFO/ForkPoolWorker-1] Task create_task[f9b98a78-8526-44fa-a239-25a335737aed] succeeded in 0.2947478999994928s: ('Brest Rennes Sun 17 Jan', 0.29, [48, 22, 28])
+[2021-06-09 16:24:44,967: INFO/MainProcess] Received task: create_task[fae03d32-9720-4dff-9ca7-20ea2fa045bf]  
+[2021-06-09 16:24:45,256: INFO/ForkPoolWorker-1] Task create_task[fae03d32-9720-4dff-9ca7-20ea2fa045bf] succeeded in 0.2877948000023025s: ('Lyon Metz Sun 17 Jan', 0.29, [71, 12, 15])
+[2021-06-09 16:24:47,245: INFO/MainProcess] Received task: create_task[c1ab37d9-6674-4572-aabb-1b3975f454d5]  
+[2021-06-09 16:24:47,550: INFO/ForkPoolWorker-1] Task create_task[c1ab37d9-6674-4572-aabb-1b3975f454d5] succeeded in 0.30429990000266116s: ('Strasbourg Saint-Etienne Sun 17 Jan', 0.3, [26, 12, 61])
+[2021-06-09 16:24:49,188: INFO/MainProcess] Received task: create_task[42c550f7-7f94-47b0-802c-3950966eea24]  
+[2021-06-09 16:24:49,483: INFO/ForkPoolWorker-1] Task create_task[42c550f7-7f94-47b0-802c-3950966eea24] succeeded in 0.29416170000331476s: ('Nice Bordeaux Sun 17 Jan', 0.29, [48, 5, 45])
+[2021-06-09 16:24:51,100: INFO/MainProcess] Received task: create_task[49caf98e-4ec5-4ee7-84e8-2272684ef4c3]  
+[2021-06-09 16:24:51,385: INFO/ForkPoolWorker-1] Task create_task[49caf98e-4ec5-4ee7-84e8-2272684ef4c3] succeeded in 0.2837078999946243s: ('Nantes Lens Sun 17 Jan', 0.28, [9, 43, 46])
+[2021-06-09 16:24:51,985: INFO/MainProcess] Received task: create_task[2d455d6b-fcb9-4bac-b0f6-c308318765b2]  
+[2021-06-09 16:24:52,314: INFO/ForkPoolWorker-1] Task create_task[2d455d6b-fcb9-4bac-b0f6-c308318765b2] succeeded in 0.327108200006478s: ('Brest Rennes Sun 17 Jan', 0.33, [48, 22, 28])
+[2021-06-09 16:24:52,563: INFO/MainProcess] Received task: create_task[d43dd88a-c18b-42e2-87ca-3710bd02a922]  
+[2021-06-09 16:24:52,889: INFO/ForkPoolWorker-1] Task create_task[d43dd88a-c18b-42e2-87ca-3710bd02a922] succeeded in 0.32431370000267634s: ('Nantes Lens Sun 17 Jan', 0.32, [9, 43, 46])
+[2021-06-09 16:24:52,891: INFO/MainProcess] Received task: create_task[69cbd743-04e1-4c0c-bbb6-a3d4543cf94d]  
+[2021-06-09 16:24:53,222: INFO/ForkPoolWorker-1] Task create_task[69cbd743-04e1-4c0c-bbb6-a3d4543cf94d] succeeded in 0.32988099999784026s: ('Brest Rennes Sun 17 Jan', 0.33, [48, 22, 28])
+[2021-06-09 16:24:53,606: INFO/MainProcess] Received task: create_task[07f93e7c-b967-4d11-962d-769eab9f27a9]  
+[2021-06-09 16:24:53,622: INFO/MainProcess] Received task: create_task[6b9d5e15-b664-4b12-a6ae-1b796539a229]  
+[2021-06-09 16:24:53,624: INFO/MainProcess] Received task: create_task[d8fcaefa-ef6d-4352-bf93-4c7dd1062d60]  
+[2021-06-09 16:24:53,978: INFO/MainProcess] Received task: create_task[6de55757-4f8e-4455-a13c-7736b776e6d4]  
+[2021-06-09 16:24:53,987: INFO/MainProcess] Received task: create_task[fb0cefc0-a54d-4bb2-acd3-aa494719a94e]  
+[2021-06-09 16:24:54,030: INFO/ForkPoolWorker-1] Task create_task[07f93e7c-b967-4d11-962d-769eab9f27a9] succeeded in 0.4218985999978031s: ('Brest Rennes Sun 17 Jan', 0.42, [48, 22, 28])
+[2021-06-09 16:24:54,255: INFO/ForkPoolWorker-2] Task create_task[d8fcaefa-ef6d-4352-bf93-4c7dd1062d60] succeeded in 0.6299482000031276s: ('Nice Bordeaux Sun 17 Jan', 0.63, [48, 5, 45])
+[2021-06-09 16:24:54,267: INFO/ForkPoolWorker-3] Task create_task[6b9d5e15-b664-4b12-a6ae-1b796539a229] succeeded in 0.6430858000021544s: ('Nantes Lens Sun 17 Jan', 0.64, [9, 43, 46])
+[2021-06-09 16:24:54,456: INFO/ForkPoolWorker-1] Task create_task[fb0cefc0-a54d-4bb2-acd3-aa494719a94e] succeeded in 0.4241528999991715s: ('Brest Rennes Sun 17 Jan', 0.42, [48, 22, 28])
+[2021-06-09 16:24:55,721: INFO/MainProcess] Received task: create_task[50e09da7-0592-48db-a30f-1906afc069fe]  
+[2021-06-09 16:24:55,723: INFO/MainProcess] Received task: create_task[6c33d1a1-cd24-4d53-8ec5-d25ac602fb6e]  
+[2021-06-09 16:24:55,764: INFO/MainProcess] Received task: create_task[d8653342-cfb7-4345-a43d-9a1750e8739a]  
+[2021-06-09 16:24:56,082: INFO/MainProcess] Received task: create_task[6cff2433-88a0-41c0-97bc-7aa21989395f]  
+[2021-06-09 16:24:56,607: INFO/ForkPoolWorker-1] Task create_task[50e09da7-0592-48db-a30f-1906afc069fe] succeeded in 0.8831026000043494s: ('Nice Bordeaux Sun 17 Jan', 0.88, [48, 5, 45])
+[2021-06-09 16:24:57,357: INFO/ForkPoolWorker-2] Task create_task[d8653342-cfb7-4345-a43d-9a1750e8739a] succeeded in 1.5920071000000462s: ('Nantes Lens Sun 17 Jan', 1.59, [9, 43, 46])
+[2021-06-09 16:24:57,465: INFO/MainProcess] Received task: create_task[6e5049a4-2408-4949-9ed7-eee7e3c1b017]  
+[2021-06-09 16:24:57,470: INFO/MainProcess] Received task: create_task[7ca61dda-320a-416b-afd0-3cccab8d8e43]  
+[2021-06-09 16:24:58,366: INFO/ForkPoolWorker-3] Task create_task[6c33d1a1-cd24-4d53-8ec5-d25ac602fb6e] succeeded in 2.6394484999982524s: ('Strasbourg Saint-Etienne Sun 17 Jan', 2.64, [26, 12, 61])
+[2021-06-09 16:24:58,844: INFO/ForkPoolWorker-1] Task create_task[6cff2433-88a0-41c0-97bc-7aa21989395f] succeeded in 2.2289707000018097s: ('Brest Rennes Sun 17 Jan', 2.23, [48, 22, 28])
+[2021-06-09 16:24:59,253: INFO/ForkPoolWorker-2] Task create_task[6e5049a4-2408-4949-9ed7-eee7e3c1b017] succeeded in 1.7839076000018395s: ('Nimes Lille Sat 9 Jan', 1.78, [4, 4, 91])
+[2021-06-09 16:24:59,594: INFO/MainProcess] Received task: create_task[783c6b77-4715-4d7b-a999-a04ec3d5954b]  
+[2021-06-09 16:25:00,364: INFO/ForkPoolWorker-3] Task create_task[7ca61dda-320a-416b-afd0-3cccab8d8e43] succeeded in 1.995824999998149s: ('Monaco Angers Sat 9 Jan', 1.99, [80, 14, 5])
+[2021-06-09 16:25:00,601: INFO/ForkPoolWorker-1] Task create_task[783c6b77-4715-4d7b-a999-a04ec3d5954b] succeeded in 0.9781800999990082s: ('Metz Nice Sat 9 Jan', 0.98, [27, 20, 51])
+[2021-06-09 16:25:00,830: INFO/ForkPoolWorker-4] Task create_task[6de55757-4f8e-4455-a13c-7736b776e6d4] succeeded in 6.84979029999522s: ('Nice Bordeaux Sun 17 Jan', 6.85, [48, 5, 45])
+[2021-06-09 16:25:03,410: INFO/MainProcess] Received task: create_task[848afe3a-9a5e-4da3-b190-b359204cf0c0]  
+[2021-06-09 16:25:03,700: INFO/ForkPoolWorker-1] Task create_task[848afe3a-9a5e-4da3-b190-b359204cf0c0] succeeded in 0.28827150000142865s: ('Brest Nice Wed 6 Jan', 0.29, [52, 10, 36])
+[2021-06-09 16:25:04,207: INFO/MainProcess] Received task: create_task[137151e6-3146-488d-9378-5557cbd4b8f2]  
+[2021-06-09 16:25:04,491: INFO/ForkPoolWorker-1] Task create_task[137151e6-3146-488d-9378-5557cbd4b8f2] succeeded in 0.28261440000642324s: ('Lorient Monaco Wed 6 Jan', 0.28, [35, 2, 61])
+[2021-06-09 16:26:51,715: INFO/MainProcess] Received task: create_task[ae41e791-4a92-4fad-99ac-cdbf1d6d5ce3]  
+[2021-06-09 16:26:52,032: INFO/ForkPoolWorker-1] Task create_task[ae41e791-4a92-4fad-99ac-cdbf1d6d5ce3] succeeded in 0.31649340000149095s: ('Lyon Lens Wed 6 Jan', 0.32, [73, 9, 16])
+[2021-06-09 16:26:56,329: INFO/MainProcess] Received task: create_task[27d2211c-15e0-4c17-928f-d688616ba47c]  
+[2021-06-09 16:26:56,613: INFO/ForkPoolWorker-1] Task create_task[27d2211c-15e0-4c17-928f-d688616ba47c] succeeded in 0.28268829999433365s: ('Marseille Montpellier Wed 6 Jan', 0.28, [28, 55, 16])
+[2021-06-09 16:26:57,749: INFO/MainProcess] Received task: create_task[7605b681-c5c1-44f7-9023-ea482532c790]  
+[2021-06-09 16:26:58,039: INFO/ForkPoolWorker-1] Task create_task[7605b681-c5c1-44f7-9023-ea482532c790] succeeded in 0.28866080000443617s: ('Lille Angers Wed 6 Jan', 0.29, [54, 36, 9])
+[2021-06-09 16:26:58,970: INFO/MainProcess] Received task: create_task[f58bd58f-22fc-4b63-ba19-711c29743e27]  
+[2021-06-09 16:26:59,278: INFO/ForkPoolWorker-1] Task create_task[f58bd58f-22fc-4b63-ba19-711c29743e27] succeeded in 0.3069467000022996s: ('Marseille Montpellier Wed 6 Jan', 0.31, [28, 55, 16])
+[2021-06-09 16:27:00,252: INFO/MainProcess] Received task: create_task[34af8382-337a-43fd-9107-1c1e9889018e]  
+[2021-06-09 16:27:00,554: INFO/ForkPoolWorker-1] Task create_task[34af8382-337a-43fd-9107-1c1e9889018e] succeeded in 0.30042880000110017s: ('Lille Angers Wed 6 Jan', 0.3, [54, 36, 9])
+[2021-06-09 16:27:02,492: INFO/MainProcess] Received task: create_task[36a54b41-3778-4a68-acfb-d9b760f293a9]  
+[2021-06-09 16:27:02,780: INFO/ForkPoolWorker-1] Task create_task[36a54b41-3778-4a68-acfb-d9b760f293a9] succeeded in 0.2831268000009004s: ('Brest Nice Wed 6 Jan', 0.28, [52, 10, 36])
+[2021-06-09 16:27:05,189: INFO/MainProcess] Received task: create_task[66ed2b67-d09b-4f75-b473-a9441ce20fd6]  
+[2021-06-09 16:27:05,474: INFO/ForkPoolWorker-1] Task create_task[66ed2b67-d09b-4f75-b473-a9441ce20fd6] succeeded in 0.2833941000062623s: ('Lorient Monaco Wed 6 Jan', 0.28, [35, 2, 61])
+[2021-06-09 16:27:07,856: INFO/MainProcess] Received task: create_task[5a261c23-1860-4861-a1a6-0c132e6bc01e]  
+[2021-06-09 16:27:08,127: INFO/ForkPoolWorker-1] Task create_task[5a261c23-1860-4861-a1a6-0c132e6bc01e] succeeded in 0.268495600001188s: ('Metz Bordeaux Wed 6 Jan', 0.27, [57, 10, 31])
+[2021-06-09 16:28:41,759: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:28:41,769: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:28:42,790: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:28:42,805: INFO/MainProcess] celery@5dc19a5f0b60 ready.
+[2021-06-09 16:28:54,679: INFO/MainProcess] Received task: create_task[9a0834b2-5356-489d-b230-d2a672b85401]  
+[2021-06-09 16:28:55,149: INFO/ForkPoolWorker-1] Task create_task[9a0834b2-5356-489d-b230-d2a672b85401] succeeded in 0.46769949999725213s: ('Metz Bordeaux Wed 6 Jan', 0.46, [57, 10, 31])
+[2021-06-09 16:30:17,948: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-06-09 16:30:17,961: INFO/MainProcess] mingle: searching for neighbors
+[2021-06-09 16:30:18,983: INFO/MainProcess] mingle: all alone
+[2021-06-09 16:30:18,995: INFO/MainProcess] celery@b1cd5aa516d0 ready.
+[2021-06-09 16:30:47,321: INFO/MainProcess] Received task: create_task[e98ff145-f7c0-413c-8cdd-b83a7fb8ce1c]  
+[2021-06-09 16:30:48,174: INFO/ForkPoolWorker-1] Task create_task[e98ff145-f7c0-413c-8cdd-b83a7fb8ce1c] succeeded in 0.8508307000010973s: ('Nantes Rennes Wed 6 Jan', 0.85, [11, 56, 32])
+[2021-06-09 16:31:31,590: INFO/MainProcess] Received task: create_task[3ecac586-882f-4b3f-b8d0-51a2a4b91f88]  
+[2021-06-09 16:31:31,886: INFO/ForkPoolWorker-1] Task create_task[3ecac586-882f-4b3f-b8d0-51a2a4b91f88] succeeded in 0.294653400000243s: ('Metz Bordeaux Wed 6 Jan', 0.29, [57, 10, 31])
+[2021-06-09 16:31:36,225: INFO/MainProcess] Received task: create_task[64679643-317c-4fbe-8c74-40cdc9fe3be6]  
+[2021-06-09 16:31:36,504: INFO/ForkPoolWorker-1] Task create_task[64679643-317c-4fbe-8c74-40cdc9fe3be6] succeeded in 0.2771893999961321s: ('Lorient Monaco Wed 6 Jan', 0.28, [35, 2, 61])
+[2021-06-09 16:31:39,887: INFO/MainProcess] Received task: create_task[af915aa1-94e5-40ef-a1c8-9cece167db3a]  
+[2021-06-09 16:31:40,163: INFO/ForkPoolWorker-1] Task create_task[af915aa1-94e5-40ef-a1c8-9cece167db3a] succeeded in 0.2749598000009428s: ('Brest Nice Wed 6 Jan', 0.27, [52, 10, 36])
+[2021-06-09 16:32:15,064: INFO/MainProcess] Received task: create_task[9b128745-3849-45e6-8e1a-0869bcfb714c]  
+[2021-06-09 16:32:15,348: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fac6057c310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:32:15,351: INFO/ForkPoolWorker-1] Task create_task[9b128745-3849-45e6-8e1a-0869bcfb714c] succeeded in 0.28607580000243615s: ('Marseille Montpellier Wed 6 Jan', 0.28, [28, 55, 16])
+[2021-06-09 16:32:24,494: INFO/MainProcess] Received task: create_task[90905633-3ace-47cc-bf57-b404595302a8]  
+[2021-06-09 16:32:24,812: WARNING/ForkPoolWorker-1] 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fac6057cca0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-09 16:32:24,815: INFO/ForkPoolWorker-1] Task create_task[90905633-3ace-47cc-bf57-b404595302a8] succeeded in 0.31924659999640426s: ('Reims Dijon Wed 6 Jan', 0.32, [44, 44, 10])
+[2021-06-09 16:32:29,056: INFO/MainProcess] Received task: create_task[41aa7d8f-b4d3-4a44-9204-86f3e412a8ea]  
+[2021-06-09 16:32:29,335: INFO/ForkPoolWorker-1] Task create_task[41aa7d8f-b4d3-4a44-9204-86f3e412a8ea] succeeded in 0.2775932999938959s: ('Lyon Lens Wed 6 Jan', 0.28, [73, 9, 16])

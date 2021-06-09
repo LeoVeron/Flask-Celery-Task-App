@@ -28,9 +28,17 @@ def get_status(task_id):
     task_result = AsyncResult(task_id)
     print('******************************************************************************')
     print(task_result.result)
-    result = {
-        "task_id": task_id,
-        "task_status": task_result.status,
-        "task_result": task_result.result
-    }
+    res = task_result.result
+    if res :
+        result = {
+            "match_name": res[0],
+            "restime": res[1],
+            "prediction": res[2]
+        }
+    else:
+        result = {
+            "match_name": task_id,
+            "restime": task_result.status,
+            "prediction": task_result.result
+        }
     return jsonify(result), 200

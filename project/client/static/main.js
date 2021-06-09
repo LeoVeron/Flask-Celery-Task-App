@@ -32,9 +32,9 @@ function getStatus(taskID) {
   .then(res => {
     const html = `
       <tr>
-        <td>${taskID}</td>
-        <td>${res.task_status}</td>
-        <td>${res.task_result}</td>
+        <td>${res.match_name}</td>
+        <td>${res.restime}</td>
+        <td>${res.prediction}</td>
       </tr>`;
     const newRow = document.getElementById('tasks').insertRow(0);
     newRow.innerHTML = html;

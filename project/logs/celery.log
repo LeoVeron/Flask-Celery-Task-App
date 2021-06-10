@@ -1,5 +1,19 @@
-[2021-06-10 06:37:50,483: INFO/MainProcess] Received task: create_task[3d380274-59f4-4b1f-bf72-8c0aafcbcf23]  
-[2021-06-10 06:37:50,787: WARNING/ForkPoolWorker-1] 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f2b9411bca0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
-[2021-06-10 06:37:52,792: INFO/ForkPoolWorker-1] Task create_task[3d380274-59f4-4b1f-bf72-8c0aafcbcf23] succeeded in 2.307438600000296s: ('Rennes Lyon Sat 9 Jan', 2.31, [14, 35, 49])
-[2021-06-10 06:38:04,794: INFO/MainProcess] Received task: create_task[71662958-25b4-4091-9a82-b29e4b2ae083]  
-[2021-06-10 06:38:07,111: INFO/ForkPoolWorker-1] Task create_task[71662958-25b4-4091-9a82-b29e4b2ae083] succeeded in 2.3158667999996396s: ('Brest Rennes Sun 17 Jan', 2.31, [48, 22, 28])
+[2021-06-10 06:53:36,322: INFO/MainProcess] Received task: create_task[7f1c6255-c257-4b09-8e1e-430a2dde8382]  
+[2021-06-10 06:53:38,913: INFO/ForkPoolWorker-1] Task create_task[7f1c6255-c257-4b09-8e1e-430a2dde8382] succeeded in 2.5876266999998734s: ('Nice Saint-Etienne Sun 31 Jan', 2.58, [34, 8, 56])
+[2021-06-10 06:53:46,203: INFO/MainProcess] Received task: create_task[cbe41596-430f-4245-b74e-e6906f39c6d2]  
+[2021-06-10 06:53:47,298: INFO/MainProcess] Received task: create_task[116752a4-83e4-4414-8945-6938ce53f3a8]  
+[2021-06-10 06:53:48,565: INFO/ForkPoolWorker-1] Task create_task[cbe41596-430f-4245-b74e-e6906f39c6d2] succeeded in 2.3612207999999555s: ('Lens Marseille Wed 3 Feb', 2.36, [24, 57, 17])
+[2021-06-10 06:53:49,063: INFO/MainProcess] Received task: create_task[d8a817d2-2845-4bc9-b2fd-286600f8fa39]  
+[2021-06-10 06:53:49,821: INFO/ForkPoolWorker-3] Task create_task[116752a4-83e4-4414-8945-6938ce53f3a8] succeeded in 2.5216891000000032s: ('Montpellier Dijon Sun 7 Feb', 2.52, [79, 11, 9])
+[2021-06-10 06:53:50,498: INFO/MainProcess] Received task: create_task[bc7a95f3-a70c-4bf0-a1af-9711b7729260]  
+[2021-06-10 06:53:51,414: INFO/ForkPoolWorker-1] Task create_task[d8a817d2-2845-4bc9-b2fd-286600f8fa39] succeeded in 2.349497999999585s: ('Nimes Monaco Sun 7 Feb', 2.35, [18, 3, 77])
+[2021-06-10 06:53:52,212: INFO/MainProcess] Received task: create_task[50dba2c6-fb81-439e-92b0-785b54f74bd2]  
+[2021-06-10 06:53:52,925: INFO/ForkPoolWorker-3] Task create_task[bc7a95f3-a70c-4bf0-a1af-9711b7729260] succeeded in 2.4248004000000947s: ('Saint-Etienne Metz Sun 7 Feb', 2.42, [19, 39, 40])
+[2021-06-10 06:53:52,969: INFO/MainProcess] Received task: create_task[39c285e7-91a7-4b35-a24e-5a527a490f30]  
+[2021-06-10 06:53:53,690: INFO/MainProcess] Received task: create_task[ee7cef33-31ea-438d-a46b-9b64edba16a3]  
+[2021-06-10 06:53:54,573: INFO/ForkPoolWorker-1] Task create_task[50dba2c6-fb81-439e-92b0-785b54f74bd2] succeeded in 2.359806700000263s: ('Monaco Lorient Sun 14 Feb', 2.36, [85, 13, 1])
+[2021-06-10 06:53:55,304: INFO/MainProcess] Received task: create_task[d571bdd6-6071-4845-ac21-32543c50efa8]  
+[2021-06-10 06:53:55,305: INFO/ForkPoolWorker-3] Task create_task[39c285e7-91a7-4b35-a24e-5a527a490f30] succeeded in 2.335150899999917s: ('Lille Brest Sun 14 Feb', 2.33, [78, 17, 3])
+[2021-06-10 06:53:55,679: WARNING/ForkPoolWorker-1] 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fe5f8136310> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2021-06-10 06:53:56,199: INFO/ForkPoolWorker-2] Task create_task[ee7cef33-31ea-438d-a46b-9b64edba16a3] succeeded in 2.506841400000212s: ('Marseille Nice Wed 17 Feb', 2.5, [52, 20, 27])
+[2021-06-10 06:53:57,685: INFO/ForkPoolWorker-1] Task create_task[d571bdd6-6071-4845-ac21-32543c50efa8] succeeded in 2.379735299999993s: ('Lorient Lille Sun 21 Feb', 2.38, [9, 5, 85])

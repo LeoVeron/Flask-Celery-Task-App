@@ -25,4 +25,8 @@ $ docker-compose up -d --build
 
 Open your browser to [http://localhost:5004](http://localhost:5004)
 
-/!\  As tensorflow is use to make prediction, the docker image is not very light...
+:bomb:  As tensorflow is use to make prediction, the docker image is not very light...
+
+## Bonus
+
+Basic test and integration test, using mock for celery run method.

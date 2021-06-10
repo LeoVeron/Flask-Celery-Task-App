@@ -23,7 +23,7 @@ def test_task_status(test_app):
 
     resp = client.post(
         "/tasks",
-        data=json.dumps({"type": 0}),
+        data=json.dumps({"id": 1}),
         content_type='application/json'
     )
     content = json.loads(resp.data.decode())
@@ -33,10 +33,20 @@ def test_task_status(test_app):
 
     resp = client.get(f"tasks/{task_id}")
     content = json.loads(resp.data.decode())
-    assert content == {"task_id": task_id, "task_status": "PENDING", "task_result": None}
+    assert content == {
+            "task_id": task_id,
+            "task_status": "PENDING", 
+            "match_name": 0,
+            "restime": 0,
+            "prediction": 0
+            }
     assert resp.status_code == 200
 
     while content["task_status"] == "PENDING":
         resp = client.get(f"tasks/{task_id}")
         content = json.loads(resp.data.decode())
-    assert content == {"task_id": task_id, "task_status": "SUCCESS", "task_result": True}
+    assert content["task_id"]==task_id
+    assert content["task_status"]=="SUCCESS"
+    assert content["match_name"]!=0
+    assert content["restime"]!=0
+    assert content["prediction"]!=0

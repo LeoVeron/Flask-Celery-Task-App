@@ -26,19 +26,21 @@ def run_task():
 @main_blueprint.route("/tasks/<task_id>", methods=["GET"])
 def get_status(task_id):
     task_result = AsyncResult(task_id)
-    print('******************************************************************************')
-    print(task_result.result)
     res = task_result.result
     if res :
         result = {
+            "task_id": task_id,
+            "task_status": task_result.status,
             "match_name": res[0],
             "restime": res[1],
             "prediction": res[2]
         }
     else:
         result = {
-            "match_name": task_id,
-            "restime": task_result.status,
-            "prediction": task_result.result
+            "task_id": task_id,
+            "task_status": task_result.status,
+            "match_name": 0,
+            "restime": 0,
+            "prediction": 0
         }
     return jsonify(result), 200

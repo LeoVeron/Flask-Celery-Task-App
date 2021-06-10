@@ -49,7 +49,8 @@ def create_task(match_id):
     prediction = predict(X)
     prediction = [int(x*100) for x in prediction[0]]
     
-    #time use for prediction
+    #time use for prediction + adding time for example
+    time.sleep(2)
     restime = round(time.time() - start_time,2)
     
     return match_name, restime, prediction

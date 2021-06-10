@@ -36,11 +36,13 @@ function getStatus(taskID) {
         <td>${res.restime}</td>
         <td>${res.prediction}</td>
       </tr>`;
-    const newRow = document.getElementById('tasks').insertRow(0);
-    newRow.innerHTML = html;
-
     const taskStatus = res.task_status;
-    if (taskStatus === 'SUCCESS' || taskStatus === 'FAILURE') return false;
+    if (taskStatus === 'SUCCESS' || taskStatus === 'FAILURE') {
+      const newRow = document.getElementById('tasks').insertRow(0);
+      newRow.innerHTML = html;
+      return false;
+    }    
+    
     setTimeout(function() {
       getStatus(res.task_id);
     }, 1000);
